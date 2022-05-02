@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project Exam2PartOneMultipleChoice: Exam #2 Part One Multiple Choice
+
+courseName=CMSC132
+semester=202101
+projectNumber=Exam2PartOneMultipleChoice
+courseKey=a17567ffa238a5d1
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2021
+submitURL=https://submit.cs.umd.edu:443/spring2021/eclipse/SubmitProjectViaEclipse

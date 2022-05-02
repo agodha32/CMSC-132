@@ -1,0 +1,17 @@
+schoolOrder 4 ==========
+tomatoPizza 10
+cheesePizza 20
+pepso        4
+peppersPizza 30
+CSClub 2 ===========
+tomatoPizza 10
+peppersPizza 30
+GamingFestival 5 ===========
+tomatoPizza 10
+peppersPizza 30
+peppersPizza 30
+peppersPizza 30
+OnionPizza 30
+OpenHouse 2 ===========
+tomatoPizza 10
+pepso 5

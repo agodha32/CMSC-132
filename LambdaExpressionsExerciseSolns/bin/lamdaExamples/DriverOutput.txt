@@ -1,0 +1,6 @@
+Toy size: 40
+Truck maxLoad: 210.0
+Semi-Anual Report
+Cost: 200000.0
+Calling printSize method
+100

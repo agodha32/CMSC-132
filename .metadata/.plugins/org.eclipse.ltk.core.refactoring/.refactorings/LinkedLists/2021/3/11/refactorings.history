@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;result&apos; in &apos;listClasses.BasicLinkedList.retrieveLastElement()&apos; to &apos;dataToReturn&apos;&#x0D;&#x0A;- Original project: &apos;LinkedLists&apos;&#x0D;&#x0A;- Original element: &apos;listClasses.BasicLinkedList.retrieveLastElement().result&apos;&#x0D;&#x0A;- Renamed element: &apos;result&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;result&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;listClasses{BasicLinkedList.java[BasicLinkedList~retrieveLastElement@result!1625!1636!1630!1635!QNode;!0!false" name="dataToReturn" references="true" stamp="1615496079997" version="1.0"/>
+</session>

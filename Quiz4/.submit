@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project Quiz #4 (Graphs): Quiz #4 - Graphs (BFS/DFS/Dijkstras)
+
+courseName=CMSC132
+semester=202101
+projectNumber=Quiz #4 (Graphs)
+courseKey=a17567ffa238a5d1
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2021
+submitURL=https://submit.cs.umd.edu:443/spring2021/eclipse/SubmitProjectViaEclipse

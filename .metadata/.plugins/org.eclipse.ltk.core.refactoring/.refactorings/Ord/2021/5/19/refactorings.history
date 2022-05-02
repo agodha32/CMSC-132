@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OrdersProcessor/secItemsData&apos; to &apos;secItemsData.txt&apos;" description="Rename resource &apos;secItemsData&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="secItemsData" name="secItemsData.txt" stamp="1619999832244" updateReferences="true"/>
+</session>

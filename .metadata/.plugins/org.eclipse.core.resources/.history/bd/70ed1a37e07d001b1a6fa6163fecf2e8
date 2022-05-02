@@ -1,0 +1,99 @@
+public class IntrestCalc {
+	
+	/**
+	 * 
+	 *This class is doing all the calculations
+	 *
+	 */
+
+	
+	/**
+	 * 
+	 * Calculates the simple intrest
+	 * 
+	 */
+	
+	public static double simpleInterest(double OriginalAmount, double 
+			ratePercentage, double years) {
+		
+		return OriginalAmount + (OriginalAmount*(ratePercentage/100)*years);
+	
+	}
+	
+	/**
+	 * 
+	 * To compute compound interest, use the following formula:
+	 * 
+	 */
+	
+	public static double compoundInterest(double OriginalAmount, double 
+			ratePercentage, double years) {
+		
+		return (OriginalAmount * Math.pow(1+ratePercentage/100, years)); 
+		
+	}
+
+	/**
+	 * 
+	 * Return a table with the simple intrest calculaitons
+	 * 
+	 */
+	
+	public static String simpleInterestTable(double OriginalAmount, double 
+			ratePercentage, int years) {
+		
+		String toReturn = "Original Amount: " + OriginalAmount + ", Rate: " + 
+		ratePercentage + "\n Year, Simple Interest Amount";
+		
+		for(int row = 0; years > row; row++) {
+			
+			toReturn  += "\n" + row + " --> " + simpleInterest(OriginalAmount, 
+					ratePercentage, years) + row;
+			
+		}
+		
+		return toReturn;
+		
+	}
+	/**
+	 * Return a <code>String</code> containing necessary information formatted to suit the 
+	 * GUI.
+	 * @param principal
+	 * @param ratePercentage
+	 * @param years
+	 * @return compound interest table
+	 */
+	public static String compoundInterestTable(double OriginalAmount, double ratePercentage, int years) {
+		String toReturn = "Original Amount: "+ formattedCurrency(OriginalAmount)+ ", Rate: "+ratePercentage;
+		toReturn+= "\n Year, Compound Interest Amount";
+		for(int rows=1; rows<= years; rows++){
+			toReturn  = toReturn +"\n"+rows+"-->"+formattedCompoundInterest(OriginalAmount, ratePercentage, rows);
+		}
+		return toReturn;
+	}
+	/**
+	 * Return a <code>String</code> embodying all of the relevant information for these interest
+	 * computations. Note, the string that this method creates should be suitable for display
+	 * in the GUI.
+	 * @param principal
+	 * @param ratePercentage
+	 * @param years
+	 * @return both interest table
+	 */
+	public static String bothInterestsTable(double OriginalAmount, double ratePercentage, int years) {
+		String toReturn = "Original Amount: "+ formattedCurrency(OriginalAmount)+ ", Rate: "+ratePercentage;
+		toReturn+= "\n Year, Simple Interest Amount, Compound Interest Amount";
+		for(int rows=1; rows<= years; rows++){
+			toReturn  += "\n"+rows+"-->"+
+						formattedSimpleInterest(OriginalAmount, ratePercentage, rows)+
+						"-->"+formattedCompoundInterest(OriginalAmount, ratePercentage, rows);
+		}
+		return toReturn;
+	}
+	
+	public static void main(String[] args) {
+		double principal = 1000, ratePercentage = 5, years = 15;
+		for (int i=1; i<=years; i++)
+			System.out.println(formattedSimpleInterest(principal, ratePercentage, i));
+	}
+}

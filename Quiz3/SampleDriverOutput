@@ -1,0 +1,18 @@
+======== Marker #1 ========
+No Flights
+IsEmpty?: true
+
+======== Marker #2 ========
+No Flights
+Name: NONAME
+
+======== Marker #3 ========
+Equals?: false
+HashCode:? true
+
+======== Marker #4 ========
+Flights: {DC={VA=30}, ID={KS=40, NJ=80}}
+Number of flights from ID: 2
+Destinations from ID: [KS, NJ]
+Direct flight cost from ID to NJ: 80
+All from and destinations: [DC, ID, KS, NJ, VA]
